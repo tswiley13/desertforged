@@ -1,5 +1,5 @@
 :root {
-  /* Desert at dusk: night-black ground, ember/amber/sun heat, sand and stone neutrals. */
+  /* Arizona sunset, top of the sky to the horizon: night blue, desert blue, violet, coral, amber, gold, ember. */
   --bg: #0c0a0b;
   --bg-2: #17131a;
   --dusk: #2e2c4a;
@@ -11,7 +11,13 @@
   --accent: #e85337;
   --accent-2: #ea9f38;
   --sun: #ffd663;
+  --night: #0d1630;
+  --blue: #5aaed6;
+  --violet: #8a6fc0;
+  --coral: #ef8a5a;
+  --gold: #f7c46c;
   --grad: linear-gradient(120deg, #e85337, #ea9f38 55%, #ffd663);
+  --sunset: linear-gradient(100deg, #5aaed6, #8a6fc0 35%, #ef8a5a 68%, #f7c46c);
   --display: 'Archivo', 'Inter', system-ui, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   --sans: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
@@ -23,11 +29,13 @@
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 body {
   margin: 0;
-  background: var(--bg);
+  background-color: var(--bg);
   background-image:
+    linear-gradient(180deg, #0d1630 0%, #0c0a0b 900px),
     linear-gradient(rgba(228, 176, 127, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(228, 176, 127, 0.03) 1px, transparent 1px);
-  background-size: 48px 48px;
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+  background-repeat: no-repeat, repeat, repeat;
   color: var(--text);
   font: 16px/1.65 var(--sans);
   -webkit-font-smoothing: antialiased;

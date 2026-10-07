@@ -191,7 +191,7 @@ function ProjectMedia({ media }) {
 
 function Projects() {
   return (
-    <Section id="work" title="Our Work" intro="Two products we designed, built and launched ourselves.">
+    <Section id="work" title="Our Work" intro="Three products we designed, built and launched ourselves.">
       <div className="projects">
         {projects.map((p, i) => (
           <article key={p.name} className={`project ${i % 2 ? 'flip' : ''}`}>
