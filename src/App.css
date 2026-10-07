@@ -31,6 +31,8 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
 .logo { display: flex; align-items: center; gap: 12px; font: 900 19px var(--display); font-stretch: 118%; letter-spacing: 2px; white-space: nowrap; }
 .logo-icon { display: block; border-radius: 8px; }
 .logo-accent { color: var(--blue); }
+.logo-text { display: grid; grid-template-columns: auto auto; column-gap: .35em; line-height: 1; }
+.logo-sub { grid-column: 1 / -1; font: 600 9.5px var(--sans); letter-spacing: 4.6px; color: var(--muted); margin-top: 4px; }
 .nav nav { display: flex; align-items: center; gap: 28px; }
 .nav nav a:not(.btn) { font-size: 14px; color: var(--muted); transition: color 0.2s; }
 .nav nav a:not(.btn):hover { color: var(--text); }

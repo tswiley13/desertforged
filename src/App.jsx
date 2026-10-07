@@ -45,9 +45,9 @@ function Nav() {
   const [open, setOpen] = useState(false)
   return (
     <header className="nav">
-      <a href="#top" className="logo" aria-label="Desert Forged home">
+      <a href="#top" className="logo" aria-label="Desert Iron Technologies home">
         <img className="logo-icon" src={`${import.meta.env.BASE_URL}icon.svg`} alt="" width="34" height="34" />
-        <span className="logo-text">DESERT <span className="logo-accent">FORGED</span></span>
+        <span className="logo-text">DESERT <span className="logo-accent">IRON</span><span className="logo-sub">TECHNOLOGIES</span></span>
       </a>
       <button className="nav-toggle" aria-label="Menu" aria-expanded={open} onClick={() => setOpen(!open)}>
         <span /><span />
@@ -77,7 +77,7 @@ function Hero() {
         <a className="btn btn-ghost" href="#work">See our work</a>
       </div>
       <div className="terminal" aria-hidden>
-        <div className="term-bar"><i /><i /><i /><span>~/desertforged — zsh</span></div>
+        <div className="term-bar"><i /><i /><i /><span>~/desertiron — zsh</span></div>
         <pre>
           <span className="c-dim">$</span> ls ~/shipped{'\n'}
           <span className="c-acc">stryde/</span>{'  '}<span className="c-acc">fitcrew/</span>{'  '}<span className="c-dim">your-app/</span>{'\n'}
@@ -260,7 +260,7 @@ function ContactForm() {
           </select>
         </label>
       </div>
-      <input type="hidden" name="_subject" value="New project inquiry from desertforged.com" />
+      <input type="hidden" name="_subject" value="New project inquiry from desertirontech.com" />
       <input type="text" name="_honey" className="honeypot" tabIndex="-1" autoComplete="off" aria-hidden />
       <label>Tell us about your project<textarea name="message" rows="5" required /></label>
       <button className="btn" disabled={state === 'sending'}>

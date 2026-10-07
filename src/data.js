@@ -1,18 +1,18 @@
 // All site content lives here — edit this file to update the site.
 
 export const company = {
-  name: 'Desert Forged',
+  name: 'Desert Iron Technologies',
   headline: 'We build apps that ship.',
   platforms: 'web · iOS · android · macOS',
   pitch:
-    'Desert Forged is an independent software studio building custom web and mobile apps. We design, build and launch our own products, and we can do the same for yours.',
+    'Desert Iron Technologies is an independent Arizona software company building custom web and mobile apps. We design, build and launch our own products, and we can do the same for yours.',
 }
 
 export const founder = {
   name: 'Travis Wiley',
   title: 'Founder & Lead Developer · Navy and Army Veteran',
   bio: [
-    'I started Desert Forged to build software the way I wanted to use it: fast, clear, and actually finished. I handle every layer of a product, from the database schema and security rules to the apps people tap on every day.',
+    'I started Desert Iron to build software the way I wanted to use it: fast, clear, and actually finished. I handle every layer of a product, from the database schema and security rules to the apps people tap on every day.',
     'Stryde, FitCrew and IntelliMove are our own products. Each went from idea to working product fast, built on real data and a single shared engine. Client projects get the same approach.',
   ],
   links: {
