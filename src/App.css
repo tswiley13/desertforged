@@ -28,9 +28,9 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
-.logo { font: 900 20px var(--display); letter-spacing: 3px; }
-.logo-mark { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.logo-dot { color: var(--accent-2); }
+.logo { display: flex; align-items: center; gap: 12px; font: 900 19px var(--display); font-stretch: 118%; letter-spacing: 2px; white-space: nowrap; }
+.logo-icon { display: block; border-radius: 8px; }
+.logo-accent { color: #5aaed6; }
 .nav nav { display: flex; align-items: center; gap: 28px; }
 .nav nav a:not(.btn) { font-size: 14px; color: var(--muted); transition: color 0.2s; }
 .nav nav a:not(.btn):hover { color: var(--text); }

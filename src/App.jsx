@@ -46,7 +46,8 @@ function Nav() {
   return (
     <header className="nav">
       <a href="#top" className="logo" aria-label="Desert Forged home">
-        <span className="logo-mark">DESERT FORGED</span>
+        <img className="logo-icon" src={`${import.meta.env.BASE_URL}icon.svg`} alt="" width="34" height="34" />
+        <span className="logo-text">DESERT <span className="logo-accent">FORGED</span></span>
       </a>
       <button className="nav-toggle" aria-label="Menu" aria-expanded={open} onClick={() => setOpen(!open)}>
         <span /><span />
