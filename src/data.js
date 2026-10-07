@@ -139,9 +139,9 @@ export const projects = [
     ],
     stack: ['TypeScript', 'React', 'Vite', 'Node.js', 'Leaflet', 'Supabase', 'Vercel'],
     platforms: ['Web', 'iOS & Android planned'],
-    stats: [['34,600', 'places scored'], ['87', 'quiz questions'], ['3 days', 'idea to beta']],
-    url: '', // add https://intellimoveus.com once it's out of private beta
-    status: 'Private beta · launching soon',
+    stats: [['34,600', 'places scored'], ['87', 'quiz questions'], ['3 days', 'idea to launch']],
+    url: 'https://intellimoveus.com',
+    status: 'Live on the web',
     media: {
       layout: 'phones',
       images: [

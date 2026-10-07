@@ -80,7 +80,7 @@ function Hero() {
         <div className="term-bar"><i /><i /><i /><span>~/desertiron — zsh</span></div>
         <pre>
           <span className="c-dim">$</span> ls ~/shipped{'\n'}
-          <span className="c-acc">stryde/</span>{'  '}<span className="c-acc">fitcrew/</span>{'  '}<span className="c-dim">your-app/</span>{'\n'}
+          <span className="c-acc">stryde/</span>{'  '}<span className="c-acc">fitcrew/</span>{'  '}<span className="c-acc">intellimove/</span>{'  '}<span className="c-dim">your-app/</span>{'\n'}
           <span className="c-dim">$</span> cat stack.json{'\n'}
           {'{ '}<span className="c-key">"apps"</span>: [<span className="c-str">"React"</span>, <span className="c-str">"React Native"</span>, <span className="c-str">"SwiftUI"</span>],{'\n'}
           {'  '}<span className="c-key">"backend"</span>: [<span className="c-str">"Supabase"</span>, <span className="c-str">"Postgres"</span>]{' }'}{'\n'}
