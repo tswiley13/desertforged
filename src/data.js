@@ -26,7 +26,7 @@ export const founder = {
 // receive messages here; the first submission sends a one-time activation link to that inbox.
 // After activating, swap the email for the random alias FormSubmit gives you to keep it private.
 // While it's empty the contact section shows direct links instead of a form.
-export const CONTACT_FORM_EMAIL = ''
+export const CONTACT_FORM_EMAIL = 'hello@desertforged.com'
 
 export const services = [
   { icon: '▯', title: 'Mobile Apps', text: 'iOS and Android apps from one codebase, including Apple Health, widgets and Live Activities.' },
