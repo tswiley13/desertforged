@@ -13,7 +13,7 @@ export const founder = {
   title: 'Founder & Lead Developer · Navy and Army Veteran',
   bio: [
     'I started Desert Forged to build software the way I wanted to use it: fast, clear, and actually finished. I handle every layer of a product, from the database schema and security rules to the apps people tap on every day.',
-    'Stryde and FitCrew are our own products. Each runs on web and mobile from a single backend, and each went from idea to working product in a few months. Client projects get the same approach.',
+    'Stryde, FitCrew and IntelliMove are our own products. Each went from idea to working product fast, built on real data and a single shared engine. Client projects get the same approach.',
   ],
   links: {
     linkedin: 'https://www.linkedin.com/in/tswiley/',
@@ -120,6 +120,34 @@ export const projects = [
         { src: img('fitcrew-01-sim25.jpg'), alt: 'FitCrew social feed' },
         { src: img('fitcrew-04-sim16.jpg'), alt: 'FitCrew workout screen with a Push Pull Legs program' },
         { src: img('fitcrew-03-sim20.jpg'), alt: 'FitCrew nutrition tracker' },
+      ],
+    },
+  },
+  {
+    name: 'IntelliMove',
+    icon: img('intellimove-icon.png'),
+    tagline: 'Your best life has an address.',
+    description:
+      'A “where should we move?” quiz that actually listens. Instead of handing everyone the same famous cities, IntelliMove scores every U.S. place, from big cities to 100-person towns and the countryside between them, on each of your answers, then explains why each match fits and what the trade-offs are.',
+    highlights: [
+      'Scores 34,600 U.S. places on every answer, including small towns and rural areas',
+      '87 questions across 19 categories: pick what matters, skip the rest, mark real must-haves',
+      'Live “front-runner” that changes as you answer, then ranked results with a map',
+      'Data pipeline merging 20+ public sources: Census, NOAA, NASA, FEMA, FBI, BLS, EPA',
+      'Results in milliseconds, computed right in the browser from a compact columnar dataset',
+      '34,000+ search-friendly town pages, rendered on demand and cached at the edge',
+    ],
+    stack: ['TypeScript', 'React', 'Vite', 'Node.js', 'Leaflet', 'Supabase', 'Vercel'],
+    platforms: ['Web', 'iOS & Android planned'],
+    stats: [['34,600', 'places scored'], ['87', 'quiz questions'], ['3 days', 'idea to beta']],
+    url: '', // add https://intellimoveus.com once it's out of private beta
+    status: 'Private beta · launching soon',
+    media: {
+      layout: 'phones',
+      images: [
+        { src: img('intellimove-01-landing.jpg'), alt: 'IntelliMove home screen: Your best life has an address' },
+        { src: img('intellimove-02-quiz.jpg'), alt: 'IntelliMove quiz question with the live front-runner town' },
+        { src: img('intellimove-03-results.jpg'), alt: 'IntelliMove results: top spots with a map' },
       ],
     },
   },
